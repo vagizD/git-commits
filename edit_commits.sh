@@ -5,7 +5,7 @@ N_to_squash="$(($1-1))"
 
 echo "Combining first $1 commits together..."
 
-while [ "$count" -lt "$N_to_squash" ]
+while [ "$count" -le "$N_to_squash" ]
 do
   count="$((count+1))"
   if [[ $count -ne 1 ]]
