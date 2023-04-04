@@ -111,6 +111,7 @@ then
   echo "-----------------------------------------"
   echo ""
 
-fi
+  echo "Commit is done, first N commits are combined into one, you need force push into '$current_branch' to finish."
 
+fi
 
