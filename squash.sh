@@ -17,6 +17,7 @@ then
 fi
 
 echo ""
+echo "Total commits in your current branch $current_branch: $total_commits."
 echo "*** - commits to squash, --- - commits to leave, T - total number of commits."
 echo "(1) -------[T-N]***********HEAD       Squash last N commits."
 echo "(2) *******[T-N]-----------HEAD       Squash all commits before [T-N] into one commit (leave only last N commits)."
