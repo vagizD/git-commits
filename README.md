@@ -1,7 +1,5 @@
 ### Cleaning Git commits history
 
-Date: 30-03-2023.
-
 `git version >= 2.37.3`
 
 ### Purpose

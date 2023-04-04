@@ -66,7 +66,7 @@ then
   echo ""
 
   echo "Commit is done, N last commits are combined into one, you need force push into '$current_branch' to finish."
-
+  echo ""
 
 elif [[ "$choice" -eq 2 ]]  # II
 then
@@ -112,6 +112,7 @@ then
   echo ""
 
   echo "Commit is done, first N commits are combined into one, you need force push into '$current_branch' to finish."
+  echo ""
 
 fi
 
